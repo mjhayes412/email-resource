@@ -1,7 +1,7 @@
 ---
 platform: linux
 
-image: docker:///golang#1.5
+image_resource: docker:///golang#1.5
 
 inputs:
   - name: email-resource-source
